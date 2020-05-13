@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-05-13T08:43:13.190Z" agent="5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Safari/537.36 Edg/80.0.361.66" etag="TqGOb68FXmpbUGWXq8H2" version="13.0.9" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2020-05-13T08:44:36.732Z" agent="5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Safari/537.36 Edg/80.0.361.66" etag="jVh30pBDVJILMKHLjqmL" version="13.0.9" type="github" pages="2">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="配置用法">
     <mxGraphModel dx="833" dy="799" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -114,22 +114,11 @@
         <mxCell id="UG2yfZD6cWvlsx1NPzkw-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;shadow=1;noEdgeStyle=1;orthogonal=1;" edge="1" parent="rOOjulAaj3iWL8L84oNA-1" source="UG2yfZD6cWvlsx1NPzkw-21" target="UG2yfZD6cWvlsx1NPzkw-31">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="T-3VM1fztK-FjzZL0tq7-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;shadow=1;" edge="1" parent="rOOjulAaj3iWL8L84oNA-1" source="UG2yfZD6cWvlsx1NPzkw-21" target="T-3VM1fztK-FjzZL0tq7-2">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="330" y="790" />
-              <mxPoint x="590" y="790" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
         <mxCell id="UG2yfZD6cWvlsx1NPzkw-21" value="程序里面能出现的日志类型" style="rounded=1;whiteSpace=wrap;html=1;shadow=1;" vertex="1" parent="rOOjulAaj3iWL8L84oNA-1">
           <mxGeometry x="270" y="662" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="T-3VM1fztK-FjzZL0tq7-2" value="error：有个资源挂了，但我有重试机制" style="rounded=1;whiteSpace=wrap;html=1;shadow=1;" vertex="1" parent="rOOjulAaj3iWL8L84oNA-1">
-          <mxGeometry x="500" y="820" width="120" height="60" as="geometry" />
-        </mxCell>
         <mxCell id="UG2yfZD6cWvlsx1NPzkw-31" value="critical:要写入的目标挂了，只能退出程序了，并且回滚所有事务操作，且没有重试机制" style="rounded=1;whiteSpace=wrap;html=1;shadow=1;" vertex="1" parent="rOOjulAaj3iWL8L84oNA-1">
-          <mxGeometry x="430" y="950" width="180" height="100" as="geometry" />
+          <mxGeometry x="430" y="830" width="180" height="100" as="geometry" />
         </mxCell>
         <mxCell id="UG2yfZD6cWvlsx1NPzkw-26" value="warning：错误信息：缓存不可用，但是我可以继续穿透" style="rounded=1;whiteSpace=wrap;html=1;shadow=1;" vertex="1" parent="rOOjulAaj3iWL8L84oNA-1">
           <mxGeometry x="440" y="644" width="136" height="80" as="geometry" />
