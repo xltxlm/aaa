@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-05-13T08:28:10.958Z" agent="5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Safari/537.36 Edg/80.0.361.66" etag="-jjvDmy1BuSCsFm5suLT" version="13.0.9" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2020-05-13T08:29:24.943Z" agent="5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Safari/537.36 Edg/80.0.361.66" etag="aHr9x62LgDrSJjefkEiX" version="13.0.9" type="github" pages="2">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="配置用法">
     <mxGraphModel dx="833" dy="799" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -53,38 +53,32 @@
       <root>
         <mxCell id="rOOjulAaj3iWL8L84oNA-0" />
         <mxCell id="rOOjulAaj3iWL8L84oNA-1" parent="rOOjulAaj3iWL8L84oNA-0" />
-        <mxCell id="UG2yfZD6cWvlsx1NPzkw-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;shadow=1;" edge="1" parent="rOOjulAaj3iWL8L84oNA-1" source="UG2yfZD6cWvlsx1NPzkw-21" target="UG2yfZD6cWvlsx1NPzkw-22">
+        <mxCell id="UG2yfZD6cWvlsx1NPzkw-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;shadow=1;noEdgeStyle=1;orthogonal=1;" edge="1" parent="rOOjulAaj3iWL8L84oNA-1" source="UG2yfZD6cWvlsx1NPzkw-21" target="UG2yfZD6cWvlsx1NPzkw-22">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="UG2yfZD6cWvlsx1NPzkw-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;shadow=1;" edge="1" parent="rOOjulAaj3iWL8L84oNA-1" source="UG2yfZD6cWvlsx1NPzkw-21" target="UG2yfZD6cWvlsx1NPzkw-24">
+        <mxCell id="UG2yfZD6cWvlsx1NPzkw-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;shadow=1;noEdgeStyle=1;orthogonal=1;" edge="1" parent="rOOjulAaj3iWL8L84oNA-1" source="UG2yfZD6cWvlsx1NPzkw-21" target="UG2yfZD6cWvlsx1NPzkw-24">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="UG2yfZD6cWvlsx1NPzkw-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;shadow=1;" edge="1" parent="rOOjulAaj3iWL8L84oNA-1" source="UG2yfZD6cWvlsx1NPzkw-21" target="UG2yfZD6cWvlsx1NPzkw-26">
+        <mxCell id="UG2yfZD6cWvlsx1NPzkw-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;shadow=1;noEdgeStyle=1;orthogonal=1;" edge="1" parent="rOOjulAaj3iWL8L84oNA-1" source="UG2yfZD6cWvlsx1NPzkw-21" target="UG2yfZD6cWvlsx1NPzkw-26">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="UG2yfZD6cWvlsx1NPzkw-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;shadow=1;" edge="1" parent="rOOjulAaj3iWL8L84oNA-1" source="UG2yfZD6cWvlsx1NPzkw-21" target="UG2yfZD6cWvlsx1NPzkw-28">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="UG2yfZD6cWvlsx1NPzkw-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;shadow=1;" edge="1" parent="rOOjulAaj3iWL8L84oNA-1" source="UG2yfZD6cWvlsx1NPzkw-21" target="UG2yfZD6cWvlsx1NPzkw-31">
+        <mxCell id="UG2yfZD6cWvlsx1NPzkw-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;shadow=1;noEdgeStyle=1;orthogonal=1;" edge="1" parent="rOOjulAaj3iWL8L84oNA-1" source="UG2yfZD6cWvlsx1NPzkw-21" target="UG2yfZD6cWvlsx1NPzkw-31">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="UG2yfZD6cWvlsx1NPzkw-21" value="程序里面能出现的日志类型" style="rounded=1;whiteSpace=wrap;html=1;shadow=1;" vertex="1" parent="rOOjulAaj3iWL8L84oNA-1">
-          <mxGeometry x="354" y="230" width="120" height="60" as="geometry" />
+          <mxGeometry x="280" y="560" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="UG2yfZD6cWvlsx1NPzkw-31" value="critical:要写入的目标挂了，只能退出程序了，并且回滚所有事务操作" style="rounded=1;whiteSpace=wrap;html=1;shadow=1;" vertex="1" parent="rOOjulAaj3iWL8L84oNA-1">
-          <mxGeometry x="370" y="30" width="180" height="100" as="geometry" />
-        </mxCell>
-        <mxCell id="UG2yfZD6cWvlsx1NPzkw-28" value="日志类型" style="rounded=1;whiteSpace=wrap;html=1;shadow=1;" vertex="1" parent="rOOjulAaj3iWL8L84oNA-1">
-          <mxGeometry x="640" y="430" width="120" height="60" as="geometry" />
+          <mxGeometry x="450" y="712" width="180" height="100" as="geometry" />
         </mxCell>
         <mxCell id="UG2yfZD6cWvlsx1NPzkw-26" value="error：错误信息：缓存不可用，但是我可以继续穿透" style="rounded=1;whiteSpace=wrap;html=1;shadow=1;" vertex="1" parent="rOOjulAaj3iWL8L84oNA-1">
-          <mxGeometry x="414" y="470" width="136" height="80" as="geometry" />
+          <mxGeometry x="450" y="592" width="136" height="80" as="geometry" />
         </mxCell>
         <mxCell id="UG2yfZD6cWvlsx1NPzkw-24" value="info：打印信息，和业务有关系的调试打印" style="rounded=1;whiteSpace=wrap;html=1;shadow=1;" vertex="1" parent="rOOjulAaj3iWL8L84oNA-1">
-          <mxGeometry x="230" y="446" width="130" height="84" as="geometry" />
+          <mxGeometry x="450" y="468" width="130" height="84" as="geometry" />
         </mxCell>
         <mxCell id="UG2yfZD6cWvlsx1NPzkw-22" value="debug:调试信息，各个资源的打开，查询，关闭" style="rounded=1;whiteSpace=wrap;html=1;shadow=1;" vertex="1" parent="rOOjulAaj3iWL8L84oNA-1">
-          <mxGeometry x="80" y="446" width="120" height="60" as="geometry" />
+          <mxGeometry x="450" y="368" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
