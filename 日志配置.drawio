@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-05-13T08:29:43.745Z" agent="5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Safari/537.36 Edg/80.0.361.66" etag="0vVzw3g6O_GB_XS2jqWq" version="13.0.9" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2020-05-13T08:33:41.141Z" agent="5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Safari/537.36 Edg/80.0.361.66" etag="Z0cfWPi3SFNECOqGJenH" version="13.0.9" type="github" pages="2">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="配置用法">
     <mxGraphModel dx="833" dy="799" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -44,6 +44,26 @@
         </mxCell>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-12" value="数据库/接口/syslog" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="360" y="350" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="usIKOYHW7eV4YRYrbqrg-2" value="docker启动时拉取" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;shadow=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="usIKOYHW7eV4YRYrbqrg-0" target="usIKOYHW7eV4YRYrbqrg-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="usIKOYHW7eV4YRYrbqrg-0" value="云配" style="shape=datastore;whiteSpace=wrap;html=1;shadow=1;flipH=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="490" y="560.0000000000002" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="usIKOYHW7eV4YRYrbqrg-1" value="缓存到本地" style="shape=datastore;whiteSpace=wrap;html=1;shadow=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="490" y="700" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="usIKOYHW7eV4YRYrbqrg-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;shadow=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="usIKOYHW7eV4YRYrbqrg-3" target="usIKOYHW7eV4YRYrbqrg-0">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="usIKOYHW7eV4YRYrbqrg-8" value="后台操作" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="usIKOYHW7eV4YRYrbqrg-7">
+          <mxGeometry x="-0.0195" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="usIKOYHW7eV4YRYrbqrg-3" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;html=1;outlineConnect=0;shadow=1;flipH=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="720" y="560.0000000000002" width="30" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
