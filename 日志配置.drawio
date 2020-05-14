@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-05-14T09:03:35.218Z" agent="5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Safari/537.36 Edg/80.0.361.66" etag="k_Pvx2xZtamPTzs4fvgq" version="13.1.1" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2020-05-14T09:13:22.131Z" agent="5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Safari/537.36 Edg/80.0.361.66" etag="Mt1mKhQKE2aIWqJnD18a" version="13.1.1" type="github" pages="3">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="配置用法">
     <mxGraphModel dx="1208" dy="1159" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -140,6 +140,28 @@
         </mxCell>
         <mxCell id="T-3VM1fztK-FjzZL0tq7-0" value="云配" style="shape=datastore;whiteSpace=wrap;html=1;shadow=1;" parent="rOOjulAaj3iWL8L84oNA-1" vertex="1">
           <mxGeometry x="120" y="850" width="60" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="0Y-U93vn0G7i_10AgWGN" name="日志存储位置">
+    <mxGraphModel dx="1208" dy="1159" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="WzQO3HwB_W6DUwusSAkx-0" />
+        <mxCell id="WzQO3HwB_W6DUwusSAkx-1" parent="WzQO3HwB_W6DUwusSAkx-0" />
+        <mxCell id="WzQO3HwB_W6DUwusSAkx-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WzQO3HwB_W6DUwusSAkx-1" source="WzQO3HwB_W6DUwusSAkx-2" target="WzQO3HwB_W6DUwusSAkx-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WzQO3HwB_W6DUwusSAkx-5" value="快速wget，不能卡程序" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="WzQO3HwB_W6DUwusSAkx-4">
+          <mxGeometry x="0.1304" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WzQO3HwB_W6DUwusSAkx-2" value="程序-&amp;gt;日志点" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;" vertex="1" parent="WzQO3HwB_W6DUwusSAkx-1">
+          <mxGeometry x="300" y="190" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="WzQO3HwB_W6DUwusSAkx-3" value="不同的路径记录不同类型的日志" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/logos-brands-5/24/nginx-128.png" vertex="1" parent="WzQO3HwB_W6DUwusSAkx-1">
+          <mxGeometry x="310" y="440" width="128" height="128" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
